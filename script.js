@@ -274,7 +274,7 @@ showitem = document.querySelector(".show_item");
 xmark = document.querySelector(".fa-xmark")
 selection = [];
 arrayfun = [];
-
+searchbox.focus()
 searchbox.addEventListener("keyup", (event) => {
   // console.log(event.key)
   if (
